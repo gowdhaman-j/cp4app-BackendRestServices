@@ -21,7 +21,7 @@ public class BackendApplication extends Application {
         //classes.add(OrdersQuery_SSO.class);
         classes.add(User.class);
         classes.add(UserQuery.class);
-          
+        
         return classes;
 		
 	}
