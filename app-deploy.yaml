@@ -17,6 +17,7 @@ metadata:
     k8s.io/display-name: Red Hat Universal Base Image 8
     maintainer: Red Hat, Inc.
     name: kabanero/java-microprofile
+    namespace: gowtham
     openshift.io/expose-services: ""
     openshift.io/tags: base rhel8
     redhat.com/build-host: cpt-1002.osbs.prod.upshift.rdu2.redhat.com
@@ -39,8 +40,8 @@ metadata:
     stack.appsody.dev/version: 0.2.19
   name: mybackendrestservice
 spec:
-  applicationImage: dev.local/mybackendrestservice
-  createKnativeService: false
+  applicationImage: docker-registry.default.svc:5000/kabanero/mybackendrestservice
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
