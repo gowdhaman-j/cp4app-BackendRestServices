@@ -40,7 +40,7 @@ metadata:
     stack.appsody.dev/version: 0.2.19
   name: mybackendrestservice
 spec:
-  applicationImage: docker-registry.default.svc:5000/gowtham/mybackendrestservice
+  applicationImage: docker-registry.default.svc:5000/kabanero/mybackendrestservice
   createKnativeService: true
   expose: true
   livenessProbe:
