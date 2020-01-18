@@ -33,7 +33,7 @@ metadata:
     vcs-ref: c42933bcdbf9f1c232e981a5e40de257c3534c8e
     vcs-type: git
     vendor: Kabanero
-    version: 0.2.10
+    version: 0.2.1
   creationTimestamp: null
   labels:
     image.opencontainers.org/title: mybackendrestservice
